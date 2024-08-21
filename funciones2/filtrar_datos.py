@@ -1,3 +1,4 @@
+'''Filtrar datos con funciones anidadas'''
 
 def procesar_nums(numeros:list):
     def es_positivo(n):
