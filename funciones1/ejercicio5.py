@@ -33,28 +33,28 @@ def calculadora():
             if operacion == 1:
                 print("Suma")
                 print(f"Resultado: {suma(num1,num2)}")
-                print("#############################")
+                print("#####################")
             elif operacion == 2:
                 print("Resta")
                 print(f"Resultado: {resta(num1,num2)}")
-                print("#############################")
+                print("#####################")
                 opciones()
             elif operacion == 3:
                 print("Multiplicar")
                 print(f"Resultado: {multiplicacion(num1,num2)}")
-                print("#############################")
+                print("#####################")
                 opciones()
             elif operacion == 4:
                 print("Divicion")
                 print(f"Resultado: {dividir(num1,num2)}")
-                print("#############################")
+                print("#####################")
                 opciones()
             elif operacion == 5:
                 print("Muchas Gracias... Saliendo....")
                 break
         else:
             print("Opciones no valida....")
-            print("#############################")
+            print("######################")
             opciones()
             
 

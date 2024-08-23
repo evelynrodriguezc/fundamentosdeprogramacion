@@ -16,7 +16,7 @@ def jugar_adivinar_palabra(palabra):
     while intentos > 0:
         intento = input("Adivina la palabra: ").lower()
         if intento == palabra:
-            print(f"Felicidades, adivinaste la palabra")
+            print("Felicidades, adivinaste la palabra")
             break
         else:
             intentos -= 1
