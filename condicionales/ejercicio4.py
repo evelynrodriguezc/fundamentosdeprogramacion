@@ -11,4 +11,4 @@ elif(calificacion >= 60 and calificacion <= 69):
 elif(calificacion >= 0 and calificacion <= 59): 
     print("Tienes una F")
 else:
-    print("Nota no valida")
+    print("Nota no valida. Debe estar entre 0 y 100")
