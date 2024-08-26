@@ -1,14 +1,14 @@
 #Definir
 mi_diccionario = {
-    "nombre"    :   "Juan",
+    "nombre"    :   "Luis",
     "edad"      :     26,
-    "ciudad"    :   "Ibague"
+    "ciudad"    :   "Armenia"
 }
 
 #Acceso a los valores
 print(mi_diccionario["ciudad"]) #Salir: Ibague
 
-#AÃ±adir o actulizar
+#Añadir o actulizar
 mi_diccionario["Curso"] = "Programacion POO"  #Crear
 mi_diccionario["nombre"] = "David" #Actualizar
 
