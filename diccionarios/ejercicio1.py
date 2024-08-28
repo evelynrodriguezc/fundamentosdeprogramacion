@@ -8,9 +8,9 @@ mi_diccionario = {
 #Acceso a los valores
 print(mi_diccionario["ciudad"]) #Salir: Ibague
 
-#Añadir o actulizar
+#Añadir o actualizar
 mi_diccionario["Curso"] = "Programacion POO"  #Crear
-mi_diccionario["nombre"] = "David" #Actualizar
+mi_diccionario["Nombre"] = "José" #Actualizar
 
 #Eliminar un elemento
 #del mi_diccionario["ciudad"]
