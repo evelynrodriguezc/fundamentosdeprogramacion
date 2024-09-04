@@ -82,12 +82,12 @@ def main():
         4: checkout,
       }
 
-      selecion = int(input("Enter option:"))
+      selection = int(input("Enter option:"))
 
-      if selecion in options:
-        options[selecion]()
+      if selection in options:
+        options[selection]()
         input("Press Enter to continue...")
-      elif selecion == 5:
+      elif selection == 5:
         break
 
     except ValueError:
